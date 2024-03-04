@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">darpafoodordering</string>
+    <string name="western_delight_restaurant_in_penang">Western Delight Restaurant In Penang</string>
+    <string name="with_over_15_years_of_experience_is_a_great_place_for_western_lovers_we_serve_the_best_quality_western_foods_from_our_award_winning_master_chef_our_dishes_are_made_using_fresh_local_produce_and_ingredients_our_customer_service_is_second_to_none_and_we_strive_to_maintain_a_very_high_standard">With over 15 years of experience, ( ) is a great place for western lovers. We serve the best quality western foods from our award-winning master chef. Our dishes are made using fresh local produce and ingredients. Our customer service is second to none and we strive to maintain a very high standard.</string>
+    <string name="register">Register</string>
+    <string name="log_in">Log In</string>
+    <string name="abc_yahoo_com">abc@yahoo.com</string>
+    <string name="john">John</string>
+    <string name="phone_number">Phone Number :</string>
+    <string name="password">Password :</string>
+    <string name="email">Email :</string>
+    <string name="name">Name :</string>
+    <string name="_012_xxx_xxxx">012-XXX XXXX</string>
+    <string name="abc123">Abc123</string>
+    <string name="register_">Register</string>
+    <string name="already_have_an_account"> Already Have An Account ? </string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="register_now">Register Now</string>
+    <string name="dont_have_an_account">Dont Have An Account</string>
+    <string name="dont_have_an_account1">Dont Have An Account ?</string>
+
+    <string-array name="itemCategory">
+        <item>Category</item>
+        <item>Food</item>
+        <item>Drink</item>
+    </string-array>
+
+    <string-array name="foodtype">
+        <item>Sub-Category</item>
+        <item>Indian</item>
+        <item>Asian</item>
+        <item>Western</item>
+        <item>Drinks</item>
+    </string-array>
+
+    <string-array name="studentStatus">
+        <item>Unverified</item>
+        <item>Verified</item>
+    </string-array>
+
+    <string-array name="itemStatus">
+        <item>Available</item>
+        <item>Unavailable</item>
+    </string-array>
+
+    <string-array name="Identity">
+        <item>Student</item>
+        <item>Staff</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

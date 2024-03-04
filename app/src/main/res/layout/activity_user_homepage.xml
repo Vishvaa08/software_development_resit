@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    tools:context=".UserHomepage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/homepage_app_header"/>
+
+        <ImageView
+            android:id="@+id/darpa_college"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="81dp"
+            android:layout_marginTop="183dp"
+            android:layout_marginEnd="81dp"
+            android:src="@drawable/darpa"/>
+
+        <TextView
+            android:id="@+id/welcome_text"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/darpa_college"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="81dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="81dp"
+            android:text="Welcome to Darpa Foodie"
+            android:textAlignment="center"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/login"
+            android:text="Login"
+            android:layout_toLeftOf="@+id/register"
+            android:layout_marginTop="76dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/red"
+            android:onClick="LoginRedirect"/>
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="76dp"
+            android:text="Register"
+            android:textColor="@color/red"
+            android:onClick="RegisterRedirect"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_gravity="start">
+
+        <include layout="@layout/main_navigation_drawer"/>
+
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

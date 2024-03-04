@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/studentPic"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/labelStudentName"
+        android:layout_toRightOf="@id/studentPic"
+        android:text="Name :"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/studentName"
+        android:layout_toRightOf="@+id/studentPic"
+        android:layout_below="@id/labelStudentName"
+        android:layout_marginStart="5dp"
+        android:hint="Name"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/labelStudentPhone"
+        android:layout_toRightOf="@id/studentPic"
+        android:text="Phone :"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_below="@id/studentName"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/studentPhone"
+        android:layout_toRightOf="@+id/studentPic"
+        android:layout_below="@+id/labelStudentPhone"
+        android:layout_marginStart="5dp"
+        android:hint="Phone"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/labelStudentEmail"
+        android:layout_toRightOf="@id/studentPic"
+        android:text="Email :"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_below="@id/studentPhone"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:id="@+id/studentEmail"
+        android:layout_toRightOf="@+id/studentPic"
+        android:layout_below="@+id/labelStudentEmail"
+        android:hint="Email"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/labelStudentCredit"
+        android:layout_toRightOf="@+id/labelStudentName"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="Credit :"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/studentCredit"
+        android:layout_toRightOf="@+id/studentName"
+        android:layout_below="@id/labelStudentCredit"
+        android:hint="Credit"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/labelUserID"
+        android:layout_toRightOf="@+id/labelStudentPhone"
+        android:layout_below="@+id/studentCredit"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="UID :"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/studentUID"
+        android:layout_toRightOf="@+id/studentPhone"
+        android:layout_below="@id/labelUserID"
+        android:hint="UID"
+        android:layout_marginLeft="5dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="17dp"
+        android:layout_below="@+id/studentEmail"
+        android:background="@color/black"/>
+
+</RelativeLayout>

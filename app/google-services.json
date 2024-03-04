@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "769720706648",
+    "project_id": "darpafoodordering",
+    "storage_bucket": "darpafoodordering.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769720706648:android:49985817544df4d31e0c2d",
+        "android_client_info": {
+          "package_name": "com.example.darpafoodordering"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm7WZcAqszqgu4J1jLpK6DqohD7yyhZDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

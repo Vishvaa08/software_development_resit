@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Verify Student"
+        android:background="@color/orange"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/labelStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="131dp"
+        android:textAlignment="center"
+        android:text="Status"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/spStatus"
+        android:layout_below="@+id/labelStatus"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/custom_input"
+        android:padding="10dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnConfirmVerifyStudent"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/spStatus"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="81dp"
+        android:textColor="@color/white"
+        android:background="@drawable/confirm_add_button"
+        android:text="Verify" />
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/labelCartName"
+        android:text="Name :"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/cartName"
+        android:layout_below="@id/labelCartName"
+        android:layout_marginStart="30dp"
+        android:hint="Name"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/labelCartQuantity"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/labelCartName"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="10dp"
+        android:text="Quantity :"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/cartQuantity"
+        android:layout_toRightOf="@+id/cartName"
+        android:layout_below="@id/labelCartQuantity"
+        android:layout_marginStart="10dp"
+        android:hint="Quantity"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/labelCartPrice"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/labelCartQuantity"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="10dp"
+        android:text="Price :"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/cartPrice"
+        android:layout_toRightOf="@+id/cartQuantity"
+        android:layout_below="@id/labelCartPrice"
+        android:layout_marginStart="10dp"
+        android:hint="Price"
+        android:textAlignment="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="17dp"
+        android:layout_below="@+id/cartQuantity"
+        android:background="@color/black"/>
+
+</RelativeLayout>

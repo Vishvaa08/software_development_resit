@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/staffPic"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/labelStaffName"
+        android:layout_toRightOf="@id/staffPic"
+        android:text="Name :"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/staffName"
+        android:layout_toRightOf="@+id/staffPic"
+        android:layout_below="@id/labelStaffName"
+        android:layout_marginStart="5dp"
+        android:hint="Name"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/labelStaffPhone"
+        android:layout_toRightOf="@id/staffPic"
+        android:layout_below="@+id/staffName"
+        android:text="Phone :"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/staffPhone"
+        android:layout_toRightOf="@+id/staffPic"
+        android:layout_below="@+id/labelStaffPhone"
+        android:layout_marginStart="5dp"
+        android:hint="Phone"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/labelStaffEmail"
+        android:layout_toRightOf="@id/labelStaffName"
+        android:layout_marginTop="15dp"
+        android:text="Email :"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/staffEmail"
+        android:layout_toRightOf="@+id/staffName"
+        android:layout_below="@+id/labelStaffEmail"
+        android:layout_marginStart="5dp"
+        android:hint="Email"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/labelStaffStatus"
+        android:layout_toRightOf="@+id/labelStaffPhone"
+        android:layout_below="@+id/staffEmail"
+        android:text="Status :"
+        android:textStyle="bold"
+        android:layout_marginStart="5dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/staffStatus"
+        android:layout_toRightOf="@+id/staffPhone"
+        android:layout_below="@+id/labelStaffStatus"
+        android:layout_marginStart="5dp"
+        android:hint="Status"/>
+
+    <Button
+        android:id="@+id/btnVerifyStaff"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/staffPic"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/confirm_add_button"
+        android:text="Verify"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnDeleteStaff"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@+id/btnVerifyStaff"
+        android:background="@drawable/confirm_add_button"
+        android:text="Delete"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="17dp"
+        android:layout_below="@+id/btnVerifyStaff"
+        android:background="@color/black"/>
+
+</RelativeLayout>

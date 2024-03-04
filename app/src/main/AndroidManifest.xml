@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Darpafoodordering"
+        tools:targetApi="31">
+        <activity
+            android:name=".NotificationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IndianDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WesternDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsianDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrinksDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".editWestern"
+            android:exported="false" />
+        <activity
+            android:name=".editIndian"
+            android:exported="false" />
+        <activity
+            android:name=".editAsian"
+            android:exported="false" />
+        <activity
+            android:name=".editDrinks"
+            android:exported="false" />
+        <activity
+            android:name=".adminViewAsian"
+            android:exported="false" />
+        <activity
+            android:name=".adminViewWestern"
+            android:exported="false" />
+        <activity
+            android:name=".adminViewIndian"
+            android:exported="false" />
+        <activity
+            android:name=".adminViewDrinks"
+            android:exported="false" />
+        <activity
+            android:name=".admin_home"
+            android:exported="false" />
+        <activity
+            android:name=".viewStaff"
+            android:exported="false" />
+        <activity
+            android:name=".viewStudents"
+            android:exported="false" />
+        <activity
+            android:name=".editStudents"
+            android:exported="false" />
+        <activity
+            android:name=".selectUser"
+            android:exported="false" />
+        <activity
+            android:name=".addMenu"
+            android:exported="false" />
+        <activity
+            android:name=".manageMenu"
+            android:exported="false" />
+        <activity
+            android:name=".editStaff"
+            android:exported="false" />
+        <activity
+            android:name=".CheckoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsianFoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WesternFoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IndianFoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrinksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserHomepage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

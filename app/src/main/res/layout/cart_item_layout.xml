@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/cartName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Item Name"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/cartPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="RM0.00"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/cartQuantity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="16dp" />
+
+
+</LinearLayout>
+
+
+

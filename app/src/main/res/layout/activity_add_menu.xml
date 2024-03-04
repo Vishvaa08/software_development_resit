@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    tools:context=".addMenu">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/admin_app_header"/>
+
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="339dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/insert"/>
+
+        <EditText
+            android:layout_width="339dp"
+            android:layout_height="50dp"
+            android:id="@+id/itemName"
+            android:layout_below="@+id/itemImage"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            android:hint="Item Name"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_input"
+            android:padding="15dp"/>
+
+        <EditText
+            android:layout_width="339dp"
+            android:layout_height="50dp"
+            android:id="@+id/itemPrice"
+            android:layout_below="@+id/itemName"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            android:hint="Item Price"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_input"
+            android:padding="15dp"/>
+
+        <Spinner
+            android:layout_width="339dp"
+            android:layout_height="50dp"
+            android:id="@+id/itemCategory"
+            android:layout_below="@id/itemPrice"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_input"/>
+
+        <Spinner
+            android:layout_width="339dp"
+            android:layout_height="50dp"
+            android:id="@+id/foodtype"
+            android:layout_below="@id/itemCategory"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_input" />
+
+        <Spinner
+            android:layout_width="339dp"
+            android:layout_height="50dp"
+            android:id="@+id/foodstatus"
+            android:layout_below="@id/foodtype"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_input" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnConfirmAdd"
+            android:layout_below="@+id/foodstatus"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="106dp"
+            android:text="Confirm Add"
+            android:background="@drawable/confirm_add_button"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_gravity="start">
+
+        <include layout="@layout/admin_navigation_drawer"/>
+
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
